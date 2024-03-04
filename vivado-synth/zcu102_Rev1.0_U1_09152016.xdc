@@ -55,10 +55,10 @@ set_property PACKAGE_PIN G10      [get_ports "MSP430_GPIO_PL_3"] ;# Bank  50 VCC
 set_property IOSTANDARD  LVCMOS33 [get_ports "MSP430_GPIO_PL_3"] ;# Bank  50 VCCO - VCC3V3   - IO_L2N_AD14N_50
 set_property PACKAGE_PIN H10      [get_ports "SFP_SI5328_INT_ALM"] ;# Bank  50 VCCO - VCC3V3   - IO_L2P_AD14P_50
 set_property IOSTANDARD  LVCMOS33 [get_ports "SFP_SI5328_INT_ALM"] ;# Bank  50 VCCO - VCC3V3   - IO_L2P_AD14P_50
-set_property PACKAGE_PIN J10      [get_ports "IOB11"] ;# Bank  50 VCCO - VCC3V3   - IO_L1N_AD15N_50    JA: PL_I2C0_SCL_LS | EarlGrey:I2C0_SCL
-set_property IOSTANDARD  LVCMOS33 [get_ports "IOB11"] ;# Bank  50 VCCO - VCC3V3   - IO_L1N_AD15N_50    JA: PL_I2C0_SCL_LS | EarlGrey:I2C0_SCL
-set_property PACKAGE_PIN J11      [get_ports "IOB12"] ;# Bank  50 VCCO - VCC3V3   - IO_L1P_AD15P_50    JA: PL_I2C0_SDA_LS | EarlGrey:I2C0_SDA
-set_property IOSTANDARD  LVCMOS33 [get_ports "IOB12"] ;# Bank  50 VCCO - VCC3V3   - IO_L1P_AD15P_50    JA: PL_I2C0_SDA_LS | EarlGrey:I2C0_SDA
+set_property PACKAGE_PIN J10      [get_ports "PL_I2C0_SCL_LS"] ;# Bank  50 VCCO - VCC3V3   - IO_L1N_AD15N_50
+set_property IOSTANDARD  LVCMOS33 [get_ports "PL_I2C0_SCL_LS"] ;# Bank  50 VCCO - VCC3V3   - IO_L1N_AD15N_50
+set_property PACKAGE_PIN J11      [get_ports "PL_I2C0_SDA_LS"] ;# Bank  50 VCCO - VCC3V3   - IO_L1P_AD15P_50
+set_property IOSTANDARD  LVCMOS33 [get_ports "PL_I2C0_SDA_LS"] ;# Bank  50 VCCO - VCC3V3   - IO_L1P_AD15P_50
 set_property PACKAGE_PIN E13      [get_ports "UART2_TXD_O_FPGA_RXD"] ;# Bank  49 VCCO - VCC3V3   - IO_L12N_AD8N_49
 set_property IOSTANDARD  LVCMOS33 [get_ports "UART2_TXD_O_FPGA_RXD"] ;# Bank  49 VCCO - VCC3V3   - IO_L12N_AD8N_49
 set_property PACKAGE_PIN F13      [get_ports "UART2_RXD_I_FPGA_TXD"] ;# Bank  49 VCCO - VCC3V3   - IO_L12P_AD8P_49
